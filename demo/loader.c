@@ -31,8 +31,7 @@
 #include <librdf.h>
 #include <raptor2.h>
 
-#include "../rdf_storage_sqlite_mro.h"
-#include "../rdf_storage_sqlite_mro.c" // unorthodox but ok for now
+#include <rdf_storage_sqlite_mro.h>
 
 /* function prototypes */
 int main(int argc, char *argv[]);
